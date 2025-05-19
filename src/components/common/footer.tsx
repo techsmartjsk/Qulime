@@ -1,0 +1,84 @@
+import { MapPin, Phone, Facebook, Linkedin, Instagram } from 'lucide-react';
+
+export default function Footer() {
+  return (
+    <footer className="bg-[#31533E] text-white px-6 md:px-16 py-10">
+      <div className="grid grid-cols-1 gap-8 text-sm md:text-base lg:flex">
+        <div className='lg:w-[40%]'>
+          <h3 className="text-lg lg:text-3xl mb-2 font-abhaya">Subscribe to get 10% OFF</h3>
+          <p className="mb-4 text-gray-200 font-darker">Subscribe for store updates and discounts.</p>
+          <div className="flex">
+            <input
+              type="email"
+              placeholder="Email"
+              className="p-2 bg-white w-full text-black"
+            />
+            <button className="bg-white text-black px-4 hover:bg-gray-200">
+              &gt;
+            </button>
+          </div>
+          <p className="font-darker mt-2 text-sm text-white">
+            by subscribing you agree to the{' '}
+            <a href="#" className="underline">
+              Terms of Use
+            </a>{' '}
+            &{' '}
+            <a href="#" className="underline">
+              Privacy Policy
+            </a>.
+          </p>
+        </div>
+
+        <div className='lg:w-[30%]'>
+          <h3 className="font-semibold text-2xl mb-2 font-abhaya">About</h3>
+          <p className="text-white text-lg font-darker">
+            At QiLumé Aesthetics, we nurture your natural glow with gentle, effective treatments—
+            bringing out your brightest, most confident self in a calm and uplifting space.
+          </p>
+          <a href="#" className="underline mt-2 inline-block font-darker">
+            LEARN MORE
+          </a>
+        </div>
+
+        <div className='lg:w-[10%]'>
+          <h3 className="font-semibold text-2xl mb-2 font-abhaya">Content</h3>
+          <ul className="space-y-3 text-gray-200 text-xl font-darker">
+            <li><a href="#" className="hover:underline">Home</a></li>
+            <li><a href="#" className="hover:underline">Our Services</a></li>
+            <li><a href="#" className="hover:underline">About Us</a></li>
+            <li><a href="#" className="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div className='lg:w-[20%]'>
+          <h3 className="font-semibold text-2xl mb-2 font-abhaya">Visit Us</h3>
+          <div className="flex items-center gap-2 text-gray-200 mb-2">
+            <div><MapPin size={18} /></div>
+            <div className='text-lg font-darker'>B-402, Palm Grove Heights, Sector 52, Gurugram, Haryana - 122003</div>
+          </div>
+          <div className="flex items-center gap-2 text-gray-200">
+            <Phone size={18} />
+            <span className='text-lg font-darker'>+91 96185 43210</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+        <div>
+            <div className="flex space-x-4 mb-4 md:mb-0">
+            <Facebook className="text-white hover:text-white cursor-pointer" />
+            <Linkedin className="text-white hover:text-white cursor-pointer" />
+            <Instagram className="text-white hover:text-white cursor-pointer" />
+            </div>
+            <div className="text-white mb-2 md:mb-0 py-4">
+            © 2025 QiLumé Aesthetics. Powered by <a href="#" className="underline">Futurestic</a>
+            </div>
+        </div>
+        <div className="flex space-x-4">
+          <a href="#" className="text-white hover:underline">Privacy Policy</a>
+          <a href="#" className="text-white hover:underline">Terms of Services</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
