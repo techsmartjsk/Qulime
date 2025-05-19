@@ -21,7 +21,7 @@ export const Hero = () => {
           Book Consultation
         </button>
 
-        <div className="flex justify-between lg:gap-x-32 mt-8 mx-auto w-full px-5">
+        <div className="flex justify-between lg:justify-center lg:gap-x-32 mt-8 mx-auto w-full px-5">
           <div className="flex flex-col items-center text-sm">
             <div className='h-[70px] lg:h-[100px] flex items-center justify-center'>
                 <Image src={acneIcon} alt="Anti-Ageing" />
