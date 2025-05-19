@@ -3,7 +3,6 @@ import Image from 'next/image'; // Use next/image if in Next.js, else replace wi
 import heroMain from '@/assets/hero/first.png';
 import img1 from '@/assets/hero/second.png';
 import img2 from '@/assets/hero/third.png';
-import img3 from '@/assets/hero/first.png';
 import acneIcon from '@/assets/banner/acne.png';
 import pigmentIcon from '@/assets/banner/drop.png';
 import antiAgeIcon from '@/assets/banner/coffee.png';
@@ -21,7 +20,7 @@ export const Hero = () => {
         <button className="bg-[#31533E] flex mx-auto text-white py-1.5 px-3 lg:py-3 lg:px-6 rounded-2xl text-md lg:text-xl font-medium">
           Book Consultation
         </button>
-        {/* Icons with Labels */}
+
         <div className="flex justify-between lg:gap-x-32 mt-8 mx-auto w-full px-5">
           <div className="flex flex-col items-center text-sm">
             <div className='h-[70px] lg:h-[100px] flex items-center justify-center'>
@@ -44,7 +43,6 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Right Image Section */}
       <div className="relative px-5 lg:px-0 lg:w-2/5">
         <Image src={heroMain} alt="Main face care" className="rounded-lg" />
         <div className="absolute bottom-[-30px] flex mt-4 justify-center mx-auto gap-x-4 px-8">
