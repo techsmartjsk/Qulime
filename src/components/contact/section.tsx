@@ -3,21 +3,20 @@ import contactImage from "@/assets/contact/contact.png"
 import Image from "next/image";
 import { ArrowUpRightFromSquare } from "lucide-react";
 import commas from "@/assets/contact/commas.svg"
-
-const avatarUrl = "https://randomuser.me/api/portraits/women/44.jpg";
+import testimonial from "@/assets/contact/testimonial.png"
 
 const testimonials = [
   {
     text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: avatarUrl,
+    avatar: testimonial,
   },
   {
     text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: avatarUrl,
+    avatar: testimonial,
   },
   {
     text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: avatarUrl,
+    avatar: testimonial,
   },
 ];
 
@@ -79,11 +78,11 @@ function ContactSection() {
                 <Image src={commas} alt="Commas"/>
                 <p className="text-gray-700 font-darker text-md lg:text-xl mt-2 pr-6">{t.text}</p>
               </div>
-              <div className="flex items-center mt-4 ml-auto bg-[#EFEAE6] p-2 rounded-xl -mr-2">
+              <div className="flex items-center mt-4 ml-auto bg-[#EFEAE6] p-1 rounded-xl -mr-2">
                 <Image
                   src={t.avatar}
                   alt="Customer avatar"
-                  className="w-10 h-10 rounded-full border-2 border-white shadow"
+                  className="w-14 h-14 rounded-full border-2 border-white shadow"
                 />
               </div>
             </div>
