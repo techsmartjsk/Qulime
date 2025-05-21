@@ -4,6 +4,7 @@ import MicroNeedling from "@/assets/about/features/microneedling.png"
 import LEDTherapy from "@/assets/about/features/LED therapy.png"
 import Image from "next/image"
 import { ExternalLink } from "lucide-react"
+import Link from "next/link"
 
 const featureData = [
   {
@@ -42,7 +43,7 @@ export const Features = () => {
               <p className="font-darker text-sm lg:text-lg font-medium">
                 {item.description}
               </p>
-              <a href="/services" className="flex gap-x-2 border-[1px] items-center border-[#31533E] px-2 py-1 lg:px-4 lg:py-2 w-fit font-istok text-sm lg:text-md"><p>Know More</p> <ExternalLink size={14}/> </a>
+              <Link href="/services" className="flex gap-x-2 border-[1px] items-center border-[#31533E] px-2 py-1 lg:px-4 lg:py-2 w-fit font-istok text-sm lg:text-md"><p>Know More</p> <ExternalLink size={14}/> </Link>
             </div>
           </div>
           <Image

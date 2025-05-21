@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Use next/image if in Next.js, else replace with <img>
+import Image from 'next/image';
 import heroMain from '@/assets/hero/first.png';
 import img1 from '@/assets/hero/second.png';
 import img2 from '@/assets/hero/third.png';

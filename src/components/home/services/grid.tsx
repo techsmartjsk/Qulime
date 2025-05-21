@@ -6,6 +6,7 @@ import antiaging from "@/assets/services/anti-aging.png";
 import regenerative from "@/assets/services/regeneration.png";
 import rejuvenation from "@/assets/services/skin-rejuvanation.png";
 import { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface Treatment {
   image: StaticImageData;
@@ -60,9 +61,9 @@ const TreatmentsGrid: React.FC = () => {
         <p className="text-gray-600 mb-4 text-sm lg:text-xl">
           No one-size-fits-all here—check out the full range of treatments we offer.
         </p>
-        <button className="bg-[#34523E] text-white px-6 py-3 lg:w-[206px] hover:bg-[#2c4434] transition">
+        <Link href="/services" className="bg-[#34523E] text-white px-6 py-3 lg:w-[206px] hover:bg-[#2c4434] transition">
           Know Our Services
-        </button>
+        </Link>
       </div>
     </section>
   );

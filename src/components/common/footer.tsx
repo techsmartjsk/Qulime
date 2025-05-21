@@ -1,4 +1,5 @@
 import { MapPin, Phone, Facebook, Linkedin, Instagram } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -19,13 +20,13 @@ export default function Footer() {
           </div>
           <p className="font-darker mt-2 text-sm text-white">
             by subscribing you agree to the{' '}
-            <a href="#" className="underline">
+            <Link href="#" className="underline">
               Terms of Use
-            </a>{' '}
+            </Link>{' '}
             &{' '}
-            <a href="#" className="underline">
+            <Link href="#" className="underline">
               Privacy Policy
-            </a>.
+            </Link>.
           </p>
         </div>
 
@@ -35,18 +36,18 @@ export default function Footer() {
             At QiLumé Aesthetics, we nurture your natural glow with gentle, effective treatments—
             bringing out your brightest, most confident self in a calm and uplifting space.
           </p>
-          <a href="#" className="underline mt-2 inline-block font-darker">
+          <Link href="/contact" className="underline mt-2 inline-block font-darker">
             LEARN MORE
-          </a>
+          </Link>
         </div>
 
         <div className='lg:w-[10%]'>
           <h3 className="font-semibold text-2xl mb-2 font-abhaya">Content</h3>
           <ul className="space-y-3 text-gray-200 text-xl font-darker">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">Our Services</a></li>
-            <li><a href="#" className="hover:underline">About Us</a></li>
-            <li><a href="#" className="hover:underline">Contact Us</a></li>
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/about" className="hover:underline">Our Services</Link></li>
+            <li><Link href="/services" className="hover:underline">About Us</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contact Us</Link></li>
           </ul>
         </div>
 
@@ -71,12 +72,12 @@ export default function Footer() {
             <Instagram className="text-white hover:text-white cursor-pointer" />
             </div>
             <div className="text-white mb-2 md:mb-0 py-4">
-            © 2025 QiLumé Aesthetics. Powered by <a href="#" className="underline">Futurestic</a>
+            © 2025 QiLumé Aesthetics. Powered by <Link href="#" className="underline">Futurestic</Link>
             </div>
         </div>
         <div className="flex space-x-4">
-          <a href="#" className="text-white hover:underline">Privacy Policy</a>
-          <a href="#" className="text-white hover:underline">Terms of Services</a>
+          <Link href="#" className="text-white hover:underline">Privacy Policy</Link>
+          <Link href="#" className="text-white hover:underline">Terms of Services</Link>
         </div>
       </div>
     </footer>

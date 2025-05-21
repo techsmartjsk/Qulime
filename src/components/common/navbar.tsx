@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import logo from "@/assets/logo.png";
+import Link from 'next/link';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,11 +33,11 @@ export const Navbar = () => {
       </div>
 
       <div className='hidden lg:flex justify-center items-center gap-x-32 py-5 font-istok'>
-        <a className='text-lg'>Home</a>
-        <a className='text-lg'>About us</a>
-        <a className='text-lg'>Contact us</a>
-        <a className='text-lg'>Our Services</a>
-        <a className='text-lg text-white bg-[#31533E] px-6 py-3 rounded-2xl'>Book Consultation</a>
+        <Link href="/" className='text-lg'>Home</Link>
+        <Link href="/about" className='text-lg'>About us</Link>
+        <Link href="/contact" className='text-lg'>Contact us</Link>
+        <Link href="/services" className='text-lg'>Our Services</Link>
+        <Link href="/contact" className='text-lg text-white bg-[#31533E] px-6 py-3 rounded-2xl'>Book Consultation</Link>
       </div>
 
       <div
@@ -44,11 +45,11 @@ export const Navbar = () => {
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
         }`}
       >
-        <a className='text-lg' onClick={toggleMenu}>Home</a>
-        <a className='text-lg' onClick={toggleMenu}>About us</a>
-        <a className='text-lg' onClick={toggleMenu}>Contact us</a>
-        <a className='text-lg' onClick={toggleMenu}>Our Services</a>
-        <a className='text-lg text-white bg-[#31533E] px-6 py-3 rounded-2xl' onClick={toggleMenu}>Book Consultation</a>
+        <Link href="/" className='text-lg' onClick={toggleMenu}>Home</Link>
+        <Link href="/about" className='text-lg' onClick={toggleMenu}>About us</Link>
+        <Link href="/contact" className='text-lg' onClick={toggleMenu}>Contact us</Link>
+        <Link href="/services" className='text-lg' onClick={toggleMenu}>Our Services</Link>
+        <Link href="/contact" className='text-lg text-white bg-[#31533E] px-6 py-3 rounded-2xl' onClick={toggleMenu}>Book Consultation</Link>
       </div>
     </div>
   );
