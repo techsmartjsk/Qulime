@@ -1,9 +1,3 @@
-import Footer from "@/components/common/footer";
-import { Navbar } from "@/components/common/navbar";
-import { Hero } from "@/components/home/hero/banner";
-import { ImageSection } from "@/components/home/image/image.section";
-import { Text } from "@/components/home/note/text";
-import TreatmentsGrid from "@/components/home/services/grid";
 import HealthySkin from "@/assets/banner/healthy_skin.png"
 import Image from "next/image";
 import logo_white from "@/assets/logo_white.png"
@@ -13,12 +7,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
-      {/* <Navbar/>
-      <Hero/>
-      <Text/>
-      <ImageSection/>
-      <TreatmentsGrid/>
-      <Footer/> */}
       <div className="relative h-screen w-full">
         <Image className="h-full w-full object-cover" src={HealthySkin} alt="Coming Soon" />
         <div className="absolute inset-0 flex flex-col py-10 items-center justify-center m-2">
