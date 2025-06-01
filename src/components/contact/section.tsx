@@ -59,7 +59,7 @@ function ContactSection() {
             />
             <button
               type="submit"
-              className="w-full bg-green-800 text-white rounded-full py-3 text-lg font-medium hover:bg-green-900 transition"
+              className="w-full cursor-pointer bg-green-800 text-white rounded-full py-3 text-lg font-medium hover:bg-green-900 transition"
             >
               Send your message
             </button>
