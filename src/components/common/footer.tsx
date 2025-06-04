@@ -55,7 +55,7 @@ export default function Footer() {
           <h3 className="font-semibold text-2xl mb-2 font-abhaya">Visit Us</h3>
           <div className="flex items-center gap-2 text-gray-200 mb-2">
             <div><MapPin size={18} /></div>
-            <div className='text-lg font-darker'>B-402, Palm Grove Heights, Sector 52, Gurugram, Haryana - 122003</div>
+            <div className='text-lg font-darker'>Plot No 2027-P, Ground Floor, Sector 45, Gurugram, Haryana 122003</div>
           </div>
           <div className="flex items-center gap-2 text-gray-200">
             <Phone size={18} />
