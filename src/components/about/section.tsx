@@ -1,5 +1,5 @@
 import HealthySkin from "@/assets/banner/healthy_skin.png"
-import Team from "@/assets/about/team.png"
+import Team from "@/assets/founders.png"
 import Image from "next/image"
 
 export const AboutSection = () => {
