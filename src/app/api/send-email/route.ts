@@ -18,8 +18,8 @@ export async function POST(req: NextRequest) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_PASS,
+        user: "qilume.aesthetics@gmail.com",
+        pass: "yrpj mmmu jeub ifqy",
       },
     })
 
