@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { StaticImageData } from "next/image";
+import Link from "next/link";
 
 interface TreatmentCardProps {
   image: StaticImageData;
@@ -15,9 +16,9 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({ image, title, description
       </div>
       <h3 className="font-semibold text-xl font-istok">{title}</h3>
       <p className="text-xl mt-2 font-darker">{description}</p>
-      <button className="mt-4 cursor-pointer bg-[#34523E] text-white px-4 py-2 hover:bg-[#2c4434] transition w-[193px]">
+      <Link href="/contact" className="mt-4 cursor-pointer bg-[#34523E] text-white px-4 py-2 hover:bg-[#2c4434] transition w-[193px]">
         Know More
-      </button>
+      </Link>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import img2 from '@/assets/hero/third.png';
 import acneIcon from '@/assets/banner/acne.png';
 import pigmentIcon from '@/assets/banner/drop.png';
 import antiAgeIcon from '@/assets/banner/coffee.png';
+import Link from 'next/link';
 
 export const Hero = () => {
   return (
@@ -17,28 +18,28 @@ export const Hero = () => {
         <p className="text-[#4a4a4a] text-center text-sm md:text-base">
           Safe, effective skin treatment guided by real dermatologist
         </p>
-        <button className="bg-[#31533E] flex mx-auto text-white py-1.5 px-3 lg:py-3 lg:px-6 rounded-2xl text-md lg:text-xl font-medium">
+        <Link href="/contact" className="bg-[#31533E] flex mx-auto text-white py-1.5 px-3 lg:py-3 lg:px-6 rounded-2xl text-md lg:text-xl font-medium w-fit">
           Book Consultation
-        </button>
+        </Link>
 
         <div className="flex justify-between lg:justify-center lg:gap-x-32 mt-8 mx-auto w-full px-5">
           <div className="flex flex-col items-center text-sm">
             <div className='h-[70px] lg:h-[100px] flex items-center justify-center'>
-                <Image src={acneIcon} alt="Anti-Ageing" />
+                <Image src={acneIcon} alt="Anti-aging" />
             </div>
             <p className="mt-2 text-sm lg:text-lg text-center">Acne & Scars <br /> Repair</p>
           </div>
           <div className="flex flex-col items-center text-sm">
             <div className='h-[70px] lg:h-[100px] flex items-center justify-center'>
-                <Image src={pigmentIcon} alt="Anti-Ageing" />
+                <Image src={pigmentIcon} alt="Anti-aging" />
             </div>
             <p className="mt-2 text-sm lg:text-lg text-center">Pigmentation <br /> Treatment</p>
           </div>
           <div className="flex flex-col items-center text-sm">
             <div className='h-[70px] lg:h-[100px] flex items-center justify-center'>
-            <Image src={antiAgeIcon} alt="Anti-Ageing"/>
+            <Image src={antiAgeIcon} alt="Anti-aging"/>
             </div>
-            <p className="mt-2 text-sm lg:text-lg text-center">Anti-Ageing <br /> Solutions</p>
+            <p className="mt-2 text-sm lg:text-lg text-center">Anti-aging <br /> Solutions</p>
           </div>
         </div>
       </div>
