@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import heroMain from '@/assets/hero/first.png';
-import img1 from '@/assets/hero/second.png';
-import img2 from '@/assets/hero/third.png';
+import heroMain from '@/assets/hero/hero_image.png';
+import img1 from '@/assets/hero/first.png';
+import img2 from '@/assets/hero/second.png';
+import img3 from '@/assets/hero/third.png';
 import acneIcon from '@/assets/banner/acne.png';
 import pigmentIcon from '@/assets/banner/drop.png';
 import antiAgeIcon from '@/assets/banner/coffee.png';
@@ -16,7 +17,7 @@ export const Hero = () => {
           Feel Confident in <br /> Your Skin
         </h1>
         <p className="text-[#4a4a4a] text-center text-sm md:text-base">
-          Safe, effective skin treatment guided by real dermatologist
+          ⁠Safe and Effective Skin Treatments guided by Global Aesthetic Experts
         </p>
         <Link href="/contact" className="bg-[#31533E] flex mx-auto text-white py-1.5 px-3 lg:py-3 lg:px-6 rounded-2xl text-md lg:text-xl font-medium w-fit">
           Book Consultation
@@ -44,12 +45,12 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative px-5 lg:px-0 lg:w-2/5">
+    <div className="relative px-5 lg:px-0 lg:w-2/5">
         <Image src={heroMain} alt="Main face care" className="rounded-lg" />
         <div className="absolute bottom-[-30px] flex mt-4 justify-center mx-auto gap-x-4 px-8">
           <Image src={img1} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
           <Image src={img2} alt="Step 2" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
-          <Image src={img1} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
+          <Image src={img3} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
         </div>
       </div>
     </section>

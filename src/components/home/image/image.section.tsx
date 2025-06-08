@@ -52,7 +52,7 @@ export const ImageSection = () => {
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
         {/* Only run typewriter when active */}
-        {typewriterActive && <TypewriterEffect message="Healthy Skin Is Beautiful Skin" />}
+        {typewriterActive && <TypewriterEffect message="When your skin glows, your confidence shows." />}
         <p
           ref={paragraphRef}
           className={`font-darker mt-4 text-lg text-white lg:text-xl max-w-[550px] transition-opacity duration-1000 ${

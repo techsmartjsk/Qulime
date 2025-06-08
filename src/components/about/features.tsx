@@ -8,18 +8,18 @@ import Link from "next/link"
 
 const featureData = [
   {
-    heading: "Multi-Functional Facial Machine",
-    description: `This all-in-one facial system offers a combination of deep cleansing, exfoliation, lifting, and hydration. It uses multiple technologies like high-frequency, galvanic, vacuum suction, and spray mist to purify pores, improve circulation, and enhance product absorption. Perfect for dull, congested, or tired skin — it's our go-to for a refreshing and instantly revitalized glow.`,
+    heading: "Primelase Laser Hair Reduction",
+    description: `Primelase offers one of the world’s most powerful and painless laser hair reduction systems. Using cutting-edge diode technology, it delivers fast, effective, and long-lasting results across all skin types — including tanned and sensitive skin. Safe, virtually pain-free, and suitable for both face and body, it redefines hair removal with precision and comfort.`,
     image: Science,
   },
   {
-    heading: "Microneedling & Dermapen Tools",
-    description: `Designed to rejuvenate from within, this tool creates controlled micro-channels in the skin to stimulate natural collagen and elastin production. It’s ideal for reducing acne scars, fine lines, enlarged pores, and uneven texture. The result? Firmer, smoother, more radiant skin all through a non-invasive yet highly effective method.`,
+    heading: "Ultracel Q+ HIFU",
+    description: `Ultracel Q+ is a next-generation HIFU technology designed to lift, tighten, and contour without surgery. Using focused ultrasound waves, it stimulates deep collagen production for firmer, more youthful skin. Perfect for the face, neck, and jawline, it offers visible results with zero downtime — a true non-invasive facelift experience.`,
     image: MicroNeedling,
   },
   {
-    heading: "LED Light Therapy Mask",
-    description: `A futuristic-looking favorite, this mask uses specific wavelengths of light to target skin issues at a cellular level. Red light promotes anti-aging and collagen synthesis, blue light combats acne-causing bacteria, and near-infrared light supports deep tissue repair. It’s completely non-invasive, pain-free, and perfect for post-treatment recovery or routine skin maintenance.`,
+    heading: "TRI-Beam Premium",
+    description: `TRI-Beam Premium is a versatile laser system that targets pigmentation, acne scars, uneven tone, and dull skin. Its Q-switched Nd:YAG technology delivers gentle yet powerful energy to rejuvenate skin at a cellular level. Safe for Indian skin types, it brightens complexion, refines texture, and restores clarity with minimal discomfort or recovery.`,
     image: LEDTherapy,
   },
 ]

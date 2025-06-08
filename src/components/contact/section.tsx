@@ -6,20 +6,25 @@ import contactImage from "@/assets/contact/contact.png"
 import Image from "next/image"
 import { ArrowUpRightFromSquare } from "lucide-react"
 import commas from "@/assets/contact/commas.svg"
-import testimonial from "@/assets/contact/testimonial.png"
+import pankaj from "@/assets/contact/pankaj.jpeg"
+import tanya from "@/assets/contact/tanya.jpeg"
+import yoshika from "@/assets/contact/yoshika.jpeg"
 
 const testimonials = [
   {
-    text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: testimonial,
+    text: "I was nervous about laser hair removal, but my experience at QiLumé completely changed that. The doctors were incredibly professional and took the time to explain every detail. The treatment itself was fast, comfortable, and seamless from start to finish. I truly appreciated the honest consultation no overselling, just what my skin actually needed.",
+    avatar: pankaj,
+    name: "Pankaj R., 35",
   },
   {
-    text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: testimonial,
+    text: "I’ve tried a lot of facials and treatments over the years, but nothing has made my skin feel as firm and lifted as Ultracel Q+ at QiLumé. The results were subtle yet powerful; no dramatic change, just a fresher, younger version of me. The team was knowledgeable, gentle, and so respectful of my comfort throughout.",
+    avatar: tanya,
+    name: "Tanya S. , 28",
   },
   {
-    text: "Finally, a skincare brand that delivers real results! The glow toner is my favourite it refreshes my skin instantly and gives me that healthy, dewy look. Can’t live without it!",
-    avatar: testimonial,
+    text: "My skin had uneven tone and post-acne marks that just wouldn’t fade. After a few TRI-Beam sessions at QiLumé, I can see a huge difference. My complexion is brighter, smoother, and more even. People have actually started asking me what I’ve been doing differently! The treatment was quick and there was zero downtime.",
+    avatar: yoshika,
+    name: "Yoshika B., 38",
   },
 ]
 
@@ -184,12 +189,17 @@ function ContactSection() {
                 <Image src={commas || "/placeholder.svg"} alt="Commas" />
                 <p className="text-gray-700 font-darker text-md lg:text-xl mt-2 pr-6">{t.text}</p>
               </div>
-              <div className="flex items-center mt-4 ml-auto bg-[#EFEAE6] p-1 rounded-xl -mr-2">
-                <Image
-                  src={t.avatar || "/placeholder.svg"}
-                  alt="Customer avatar"
-                  className="w-14 h-14 rounded-full border-2 border-white shadow"
-                />
+              <div className="flex justify-between items-center">
+                <div>
+                  <p className="font-bold text-lg lg:text-2xl font-darker">{t.name}</p>
+                </div>
+                <div className="flex items-center mt-4 ml-auto bg-[#EFEAE6] p-1 rounded-xl -mr-2">
+                  <Image
+                    src={t.avatar || "/placeholder.svg"}
+                    alt="Customer avatar"
+                    className="w-14 h-14 rounded-full border-2 border-white shadow"
+                  />
+                </div>
               </div>
             </div>
           ))}

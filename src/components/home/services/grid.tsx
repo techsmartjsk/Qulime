@@ -22,18 +22,18 @@ const treatments: Treatment[] = [
   },
   {
     image: acne,
-    title: "Acne & Acne Marks",
+    title: "Anti-Acne Treatments",
     description: "Target breakouts and scarring with our expert-led acne control and resurfacing treatments.",
   },
   {
     image: weightloss,
     title: "Non-Surgical Weight Loss",
-    description: "Sculpt your body with cryolipolysis, RF, and fat-reduction treatments—no downtime required.",
+    description: "Sculpt your body with Cryo T-Shock, Radio Frequency and Fat reduction treatments - no downtime required.",
   },
   {
     image: antiaging,
     title: "Anti-Aging Treatments",
-    description: "Smooth fine lines and firm skin using Botox, HIFU, thread lifts, and more.",
+    description: "Achieve Smooth and firm skin including injectables, collagen boosters, and skin tightening. Subtle, natural-looking results that enhance your timeless beauty.",
   },
   {
     image: regenerative,
@@ -43,7 +43,7 @@ const treatments: Treatment[] = [
   {
     image: rejuvenation,
     title: "Skin Rejuvenation",
-    description: "Boost radiance and hydration with facials, peels, and collagen-inducing therapies.",
+    description: "From plant-based exosomes and thermo facials to Ayurveda rituals and Fire & Ice facials — each treatment is designed to restore glow, boost collagen, and revive tired skin.",
   },
 ];
 
