@@ -39,8 +39,8 @@ const darker_grot = Darker_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Qulime Aesthetics",
-  description: "Safe, effective skin treatment guided by real dermatologists",
+  title: "Qilumé Aesthetics",
+  description: "⁠Safe and Effective Skin Treatments guided by Global Aesthetic Experts",
 };
 
 // Root layout component
