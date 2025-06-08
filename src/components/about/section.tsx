@@ -20,13 +20,13 @@ export const AboutSection = () => {
                             <p className="font-darker text-sm lg:text-lg font-medium">At the heart of QiLumé Aesthetics are two dynamic women; each bringing their unique expertise, vision, and energy to redefine the future of beauty and wellness.</p>
                         </div>
                     </div>
-                    <Image src={Team} alt={"Team"} className="lg:w-1/2 h-[400px] object-cover"></Image>
+                    <Image src={Team} alt={"Team"} className="lg:w-1/2 h-[400px] lg:h-[500px] object-cover"></Image>
                 </div>
             </div>
 
             <div className="my-10">
                 <div className="border-t-[1px] border-b-[1px] w-full border-black flex flex-col-reverse lg:flex-row">
-                    <Image src={Akshara} alt={"Akshara"} className="lg:w-1/2 h-[400px] object-cover"></Image>
+                    <Image src={Akshara} alt={"Akshara"} className="lg:w-1/2 h-[400px] lg:h-[500px] object-cover"></Image>
                     <div className="lg:w-1/2 flex items-center justify-center border-l-[1px] border-black">
                         <div className="flex flex-col gap-y-3 lg:gap-y-4 px-10 py-5 lg:px-20">
                             <p className="font-bold font-istok text-[#31533E] text-xl lg:text-3xl">Dr. Akshara Shaji<br/> <span className="text-md lg:text-lg">Founder & Medical Director, QiLumé Aesthetics</span></p>
@@ -51,7 +51,7 @@ export const AboutSection = () => {
                             </p>
                         </div>
                     </div>
-                    <Image src={Surbhi} alt={"Surbhi"} className="lg:w-1/2 h-[400px] bg-[#e4eaf2] object-contain"></Image>
+                    <Image src={Surbhi} alt={"Surbhi"} className="lg:w-1/2 h-[400px] lg:h-[500px] bg-[#e4eaf2] object-contain"></Image>
                 </div>
             </div>
         </div>

@@ -93,11 +93,9 @@ function ContactSection() {
       <div className="flex flex-col md:flex-row gap-8 lg:px-20 mx-auto mt-6">
         <div className="relative w-full md:w-1/2 rounded-xl overflow-hidden">
           <Image src={contactImage || "/placeholder.svg"} alt="Facial treatment" className="w-full object-cover" />
-          <div className="absolute font-darker bottom-4 right-4 bg-white bg-opacity-[0.41] px-4 py-2 rounded-lg text-2xl">
-            Subscribe to our <br />
-            social networks to <br />
-            learn more
-            <ArrowUpRightFromSquare />
+          <div className="absolute flex items-end justify-center font-darker bottom-4 right-4 bg-[rgba(202,198,198,0.41)] px-4 py-2 rounded-lg text-2xl">
+          Subscribe to our <br/> social networks to <br/> learn more
+            <ArrowUpRightFromSquare size={20} />
           </div>
         </div>
 
