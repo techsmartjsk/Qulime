@@ -35,17 +35,17 @@ const treatments: Treatment[] = [
     },
     {
       image: hifu,
-      title: "HIFU (Ultracel Q+)",
+      title: "HIFU",
       description: "Tighten and lift skin non-invasively using high-intensity focused ultrasound. Ideal for jawline, neck, and cheek sculpting.",
     },
     {
       image: laserToning,
-      title: "Laser Skin Toning (Tribeam)",
+      title: "Laser Skin Toning",
       description: "Achieve an even, radiant complexion while reducing pigmentation and dullness with gentle yet powerful laser toning.",
     },
     {
       image: cryolipolysis,
-      title: "Cryolipolysis",
+      title: "Cryo T-Shock",
       description: "Target stubborn fat pockets with non-surgical fat freezing that contours your body while preserving skin health.",
     },
     {

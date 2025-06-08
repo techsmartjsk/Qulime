@@ -39,7 +39,7 @@ export const ServiceSection = () => {
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-20">
                     <h2 className="font-abhaya text-white text-4xl md:text-9xl font-bold tracking-wide mb-4">WELLNESS</h2>
                     <Link href="/services/wellness" className="bg-[#31533E] text-white px-6 py-2 transition">
-                        Explore Hair Solutions
+                        Explore Wellness
                     </Link>
                 </div>
             </div>
