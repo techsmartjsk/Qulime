@@ -1,5 +1,4 @@
 import Office from "@/assets/about/office.png"
-import Team from "@/assets/founders.png"
 import Image from "next/image"
 import Akshara from "@/assets/about/akshara.jpeg"
 import Surbhi from "@/assets/about/surbhi.png"
