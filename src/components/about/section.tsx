@@ -13,7 +13,7 @@ export const AboutSection = () => {
 
             <div className="flex flex-col gap-y-3 lg:gap-y-4 px-10 py-5 items-center lg:px-20">
                 <p className="font-bold font-istok text-[#31533E] text-xl lg:text-3xl">MEET THE FOUNDERS</p>
-                <p className="font-darker text-sm w-1/2 lg:text-lg font-medium">At the heart of QiLumé Aesthetics are two dynamic women; each bringing their unique expertise, vision, and energy to redefine the future of beauty and wellness.</p>
+                <p className="font-darker text-sm lg:w-1/2 lg:text-lg font-medium">At the heart of QiLumé Aesthetics are two dynamic women; each bringing their unique expertise, vision, and energy to redefine the future of beauty and wellness.</p>
             </div>
 
             <div className="my-10">
