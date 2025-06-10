@@ -61,7 +61,7 @@ export default function Footer() {
             <Link href="https://www.instagram.com/aestheticsbyqilume"><Instagram className="text-white hover:text-white cursor-pointer" /></Link>
             </div>
             <div className="text-white mb-2 md:mb-0 py-4">
-            © 2025 QiLumé Aesthetics. Powered by <Link href="https://futurestic.co.in" className="underline">Futurestic</Link>
+            © 2025 QiLumé Aesthetics. Designed and Developed By <Link href="https://Wa.me/+919700001534" className="underline">Hotbot Studios</Link>
             </div>
         </div>
       </div>
