@@ -23,7 +23,7 @@ export const ServiceSection = () => {
                 className="object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-20">
-                    <h2 className="font-abhaya text-white text-4xl md:text-9xl font-bold tracking-wide mb-4">ANTI aging</h2>
+                    <h2 className="font-abhaya text-white text-4xl md:text-8xl font-bold tracking-wide mb-4 uppercase">ANTI-aging and beauty</h2>
                     <Link href="/services/anti-aging" className="bg-[#31533E] text-white px-6 py-2 transition">
                         Explore Face Treatments
                     </Link>
