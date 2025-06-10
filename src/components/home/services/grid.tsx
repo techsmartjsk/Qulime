@@ -1,10 +1,10 @@
 import TreatmentCard from "./card";
 import hyperpigmentation from "@/assets/services/hyperpigmentation.png";
 import acne from "@/assets/services/acne.png";
-import weightloss from "@/assets/services/non-surgical-weight-loss.png";
-import antiaging from "@/assets/services/anti-aging.png";
+import weightloss from "@/assets/services/weight-loss.jpeg";
+import antiaging from "@/assets/services/anti-aging.jpeg";
 import regenerative from "@/assets/services/regeneration.png";
-import rejuvenation from "@/assets/services/skin-rejuvanation.png";
+import rejuvenation from "@/assets/services/skin-rejuvnation.jpeg";
 import { StaticImageData } from "next/image";
 import Link from "next/link";
 

@@ -1,4 +1,4 @@
-import { MapPin, Phone, Facebook, Linkedin, Instagram } from 'lucide-react';
+import { MapPin, Phone, Instagram, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -18,16 +18,6 @@ export default function Footer() {
               &gt;
             </button>
           </div>
-          <p className="font-darker mt-2 text-sm text-white">
-            by subscribing you agree to the{' '}
-            <Link href="#" className="underline">
-              Terms of Use
-            </Link>{' '}
-            &{' '}
-            <Link href="#" className="underline">
-              Privacy Policy
-            </Link>.
-          </p>
         </div>
 
         <div className='lg:w-[30%]'>
@@ -67,17 +57,12 @@ export default function Footer() {
       <div className="mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
         <div>
             <div className="flex space-x-4 mb-4 md:mb-0">
-            <Facebook className="text-white hover:text-white cursor-pointer" />
-            <Linkedin className="text-white hover:text-white cursor-pointer" />
-            <Instagram className="text-white hover:text-white cursor-pointer" />
+            <Link href="https://www.youtube.com/@QiLum%C3%A9Aesthetics"><Youtube className="text-white hover:text-white cursor-pointer" /></Link>
+            <Link href="https://www.instagram.com/aestheticsbyqilume"><Instagram className="text-white hover:text-white cursor-pointer" /></Link>
             </div>
             <div className="text-white mb-2 md:mb-0 py-4">
-            © 2025 QiLumé Aesthetics. Powered by <Link href="#" className="underline">Futurestic</Link>
+            © 2025 QiLumé Aesthetics. Powered by <Link href="https://futurestic.co.in" className="underline">Futurestic</Link>
             </div>
-        </div>
-        <div className="flex space-x-4">
-          <Link href="#" className="text-white hover:underline">Privacy Policy</Link>
-          <Link href="#" className="text-white hover:underline">Terms of Services</Link>
         </div>
       </div>
     </footer>

@@ -1,10 +1,10 @@
 
 import botox from "@/assets/services/botox.png";
-import fillers from "@/assets/services/fillers.png";
-import threadLifts from "@/assets/services/thread_lifts.png";
-import hifu from "@/assets/services/hifu.png";
+import fillers from "@/assets/services/fillers.webp";
+import threadLifts from "@/assets/services/thread-lifts.jpeg";
+import hifu from "@/assets/services/hifu.webp";
 import laserToning from "@/assets/services/laser_skin_toning.png";
-import cryolipolysis from "@/assets/services/cryolipolysis.png";
+import cryolipolysis from "@/assets/services/cryo-t-shock.jpeg";
 import laserHairReduction from "@/assets/services/laser_hair_reduction.png";
 import dermaplaning from "@/assets/services/dermaplaning.png";
 import medifacials from "@/assets/services/medifacials.png";
