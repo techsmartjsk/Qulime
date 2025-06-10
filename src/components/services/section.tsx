@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ServicesGrid from "./services";
-import hair from "@/assets/services/banners/hair.png"
+import hair from "@/assets/services/banners/wellness.png"
 import skin from "@/assets/services/banners/skin.png"
 import laser from "@/assets/services/banners/laser.png"
 import Link from "next/link";
