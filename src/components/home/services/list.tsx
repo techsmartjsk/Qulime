@@ -77,7 +77,9 @@ export default function ServiceList({ service }: { service: string | string[] | 
     <div className="w-full mx-auto">
       <div className="text-center mb-8">
         <h2 className="text-2xl lg:text-4xl font-bold uppercase bg-[#31533E] text-white py-2 font-darker w-full my-5 inline-block mb-2">
-          {serviceTitle} Services
+          {
+            serviceTitle === "anti-aging" ? "Anti Aging and Beauty" : serviceTitle
+          } Services
         </h2>
       </div>
 
