@@ -55,7 +55,7 @@ export const Navbar = () => {
             key={link.href}
             href={link.href}
             className={`text-lg hover:underline transition-all duration-150 ${
-              isActive(link.href) ? 'font-bold underline' : ''
+              isActive(link.href) ? 'font-bold underline text-[#31533E]' : ''
             }`}
           >
             {link.label}
