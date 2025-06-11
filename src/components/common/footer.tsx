@@ -47,10 +47,10 @@ export default function Footer() {
             <div><MapPin size={18} /></div>
             <div className='text-lg font-darker'>Plot No 2027-P, Ground Floor, Sector 45, Gurugram, Haryana 122003</div>
           </div>
-          <div className="flex items-center gap-2 text-gray-200">
+          <Link href="tel:+919618543210" className="flex items-center gap-2 text-gray-200">
             <Phone size={18} />
             <span className='text-lg font-darker'>+91 96185 43210</span>
-          </div>
+          </Link>
         </div>
       </div>
 
