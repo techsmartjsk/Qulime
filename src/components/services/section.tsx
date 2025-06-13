@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ServicesGrid from "./services";
 import hair from "@/assets/services/banners/wellness.png"
+import hair_mobile from "@/assets/services/banners/wellness_mobile.png"
 import skin from "@/assets/services/banners/skin.png"
 import laser from "@/assets/services/banners/laser.png"
 import Link from "next/link";
@@ -33,8 +34,13 @@ export const ServiceSection = () => {
             <div className="relative w-full h-72 md:h-96">
                 <Image
                 src={hair}
-                alt="Hair"
-                className="object-cover w-full h-full"
+                alt="Hair Solutions"
+                className="hidden lg:block object-cover w-full h-full"
+                />
+                <Image
+                src={hair_mobile}
+                alt="Hair Solutions"
+                className="block lg:hidden  object-cover w-full h-full"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-20">
                     <h2 className="font-abhaya text-white text-4xl md:text-9xl font-bold tracking-wide mb-4">WELLNESS</h2>
