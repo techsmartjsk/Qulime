@@ -1,19 +1,19 @@
 
 import QPlus from "@/assets/about/features/qplus.png"
-import Tribeam from "@/assets/about/features/tribeam.jpeg"
+import Tribeam from "@/assets/about/features/tribeam.png"
 import { ExternalLink } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
 const featureData = [
   {
-    heading: "Primelase Laser Hair Reduction",
-    description: `Primelase offers one of the world’s most powerful and painless laser hair reduction systems. Using cutting-edge diode technology, it delivers fast, effective, and long-lasting results across all skin types — including tanned and sensitive skin. Safe, virtually pain-free, and suitable for both face and body, it redefines hair removal with precision and comfort.`,
-  },
-  {
     heading: "Ultracel Q+ HIFU",
     description: `Ultracel Q+ is a next-generation HIFU technology designed to lift, tighten, and contour without surgery. Using focused ultrasound waves, it stimulates deep collagen production for firmer, more youthful skin. Perfect for the face, neck, and jawline, it offers visible results with zero downtime — a true non-invasive facelift experience.`,
     image: QPlus,
+  },
+  {
+    heading: "Primelase Laser Hair Reduction",
+    description: `Primelase offers one of the world’s most powerful and painless laser hair reduction systems. Using cutting-edge diode technology, it delivers fast, effective, and long-lasting results across all skin types — including tanned and sensitive skin. Safe, virtually pain-free, and suitable for both face and body, it redefines hair removal with precision and comfort.`,
   },
   {
     heading: "TRI-Beam Premium",
@@ -59,7 +59,7 @@ export const Features = () => {
               <Image
                 src={item.image}
                 alt={item.heading}
-                className="lg:w-1/2 h-[400px] bg-black lg:h-[500px] object-contain"/>
+                className="lg:w-1/2 h-[400px] lg:h-[500px] bg-[#e4eaf2] object-contain"/>
             ): <div className="lg:w-1/2 w-full aspect-video">
                 <iframe
                   src="https://player.vimeo.com/video/1091635818?autoplay=1&loop=1&background=1&title=0&byline=0&portrait=0"

@@ -1,6 +1,6 @@
 import Office from "@/assets/about/office.png"
 import Image from "next/image"
-import Akshara from "@/assets/about/akshara.jpeg"
+import Akshara from "@/assets/about/akshara.png"
 import Surbhi from "@/assets/about/surbhi.png"
 
 export const AboutSection = () => {
@@ -18,7 +18,7 @@ export const AboutSection = () => {
 
             <div className="my-10">
                 <div className="border-t-[1px] border-b-[1px] w-full border-black flex flex-col-reverse lg:flex-row">
-                    <Image src={Akshara} alt={"Akshara"} className="lg:w-1/2 h-[400px] lg:h-[500px] object-cover"></Image>
+                    <Image src={Akshara} alt={"Akshara"} className="lg:w-1/2 h-[400px] lg:h-[500px] bg-[#e4eaf2] object-contain"></Image>
                     <div className="lg:w-1/2 flex items-center justify-center border-l-[1px] border-black">
                         <div className="flex flex-col gap-y-3 lg:gap-y-4 px-10 py-5 lg:px-20">
                             <p className="font-bold font-istok text-[#31533E] text-xl lg:text-3xl">Dr. Akshara Shaji<br/> <span className="text-md lg:text-lg">Founder & Medical Director, QiLumé Aesthetics</span></p>

@@ -1,5 +1,5 @@
 import TreatmentCard from "./card";
-import hyperpigmentation from "@/assets/services/hyperpigmentation.png";
+import hyperpigmentation from "@/assets/services/hyperpigmentation.jpg";
 import acne from "@/assets/services/acne.png";
 import weightloss from "@/assets/services/weight-loss.jpeg";
 import antiaging from "@/assets/services/anti-aging.jpeg";
