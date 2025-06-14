@@ -12,7 +12,7 @@ export const BannerSection = () => {
         />
         <div className="absolute inset-0 flex items-center justify-left text-white py-4 px-10 lg:px-20">
           <div className="text-center flex flex-col lg:gap-y-2">
-            <p className="font-bold text-left text-xl lg:text-5xl mb-2 font-istok text-[#31533E]">QILUMÉ SIGNATURE TREATMENTS</p>
+            <p className="font-bold text-left text-xl lg:text-5xl mb-2 font-istok text-black">QILUMÉ SIGNATURE TREATMENTS</p>
             <p className="mb-4 text-black text-left max-w-2xl font-darker text-md lg:text-lg">
               Each of our bespoke skin treatments is carefully curated using
               clinically trusted methods and advanced aesthetic technology —
