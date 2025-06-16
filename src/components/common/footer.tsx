@@ -1,5 +1,6 @@
-import { MapPin, Phone, Instagram, Youtube } from 'lucide-react';
+import { MapPin, Phone } from 'lucide-react';
 import Link from 'next/link';
+import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -57,11 +58,12 @@ export default function Footer() {
       <div className="mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
         <div>
             <div className="flex space-x-4 mb-4 md:mb-0">
-            <Link href="https://www.youtube.com/@QiLum%C3%A9Aesthetics"><Youtube className="text-white hover:text-white cursor-pointer" /></Link>
-            <Link href="https://www.instagram.com/aestheticsbyqilume"><Instagram className="text-white hover:text-white cursor-pointer" /></Link>
+            <Link href="https://www.youtube.com/@QiLum%C3%A9Aesthetics"><FaYoutube className="text-white hover:text-white cursor-pointer" size={25} /></Link>
+            <Link href="https://www.linkedin.com/company/qilum%C3%A9-aesthetics/"><FaLinkedin className="text-white hover:text-white cursor-pointer" size={25} /></Link>
+            <Link href="https://www.instagram.com/aestheticsbyqilume"><FaInstagram className="text-white hover:text-white cursor-pointer" size={25} /></Link>
             </div>
             <div className="text-white mb-2 md:mb-0 py-4">
-            © 2025 QiLumé Aesthetics. Designed and Developed By <Link href="https://Wa.me/+919700001534" className="underline">Hotbot Studios</Link>
+            © 2025 QiLumé Aesthetics.
             </div>
         </div>
       </div>

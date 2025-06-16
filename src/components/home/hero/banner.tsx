@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import heroMain from '@/assets/hero/hero_image.png';
+import heroMain from '@/assets/hero/hero.jpg';
 import img1 from '@/assets/hero/first.png';
 import img2 from '@/assets/hero/second.png';
 import img3 from '@/assets/hero/third.png';
@@ -8,6 +8,7 @@ import acneIcon from '@/assets/banner/acne.png';
 import pigmentIcon from '@/assets/banner/drop.png';
 import antiAgeIcon from '@/assets/banner/coffee.png';
 import Link from 'next/link';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export const Hero = () => {
   return (
@@ -46,13 +47,17 @@ export const Hero = () => {
       </div>
 
     <div className="relative px-5 lg:px-0 lg:w-2/5">
-        <Image src={heroMain} alt="Main face care" className="rounded-lg" />
+        <Image src={heroMain} alt="Main face care" className="rounded-2xl lg:max-w-[520px]" />
         <div className="absolute bottom-[-30px] flex mt-4 justify-center mx-auto gap-x-4 px-8">
           <Image src={img1} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
           <Image src={img2} alt="Step 2" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
           <Image src={img3} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
         </div>
       </div>
+
+    <a href="https://wa.me/919667929992" target="_blank" rel="noopener noreferrer" className="fixed bg-[#25D366] p-2 z-50 rounded-xl bottom-[20px] right-[40px]">
+      <FaWhatsapp size={50} color="white" />
+    </a>
     </section>
   );
 };

@@ -39,7 +39,7 @@ export const Navbar = () => {
     <div className="bg-[#EFEAE6] w-full py-5 lg:py-2 relative z-50">
       <div className="flex justify-between items-center px-5 lg:px-20">
         <Link href="/" className='w-[250px] lg:w-[400px] lg:mx-auto'>
-          <Image src={logo} alt="Qulime Aesthetics"/>
+          <Image src={logo} alt="Qilumè Aesthetics"/>
         </Link>
         <div className="lg:hidden z-50">
           <button onClick={toggleMenu}>
