@@ -46,13 +46,8 @@ export const Hero = () => {
         </div>
       </div>
 
-    <div className="relative px-5 lg:px-0 lg:w-2/5">
-        <Image src={heroMain} alt="Main face care" className="rounded-2xl lg:max-w-[520px]" />
-        <div className="absolute bottom-[-30px] flex mt-4 justify-center mx-auto gap-x-4 px-8">
-          <Image src={img1} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
-          <Image src={img2} alt="Step 2" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
-          <Image src={img3} alt="Step 1" className="rounded-md w-[80px] h-[80px] lg:h-[143px] lg:w-[143px]" />
-        </div>
+      <div className="relative px-5 lg:px-0 lg:w-2/5">
+          <Image src={heroMain} alt="Main face care" className="rounded-2xl lg:max-w-[580px]" />
       </div>
 
     <a href="https://wa.me/919667929992" target="_blank" rel="noopener noreferrer" className="fixed bg-[#25D366] p-2 z-50 rounded-xl bottom-[20px] right-[40px]">
