@@ -14,7 +14,7 @@ const TreatmentCard: React.FC<TreatmentCardProps> = ({ image, title, description
       <div className="mx-auto rounded-full overflow-hidden mb-4">
         <Image src={image} alt={title} className="object-cover w-[321px] h-[321px]" />
       </div>
-      <h3 className="font-semibold text-xl font-istok">{title}</h3>
+      <h2 className="font-semibold text-xl font-istok">{title}</h2>
       <p className="text-xl mt-2 font-darker">{description}</p>
       <Link href="/contact" className="mt-4 cursor-pointer bg-[#34523E] text-white px-4 py-2 hover:bg-[#2c4434] transition w-[193px]">
         Know More

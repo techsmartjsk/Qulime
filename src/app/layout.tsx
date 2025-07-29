@@ -39,8 +39,8 @@ const darker_grot = Darker_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Qilumé Aesthetics",
-  description: "⁠Safe and Effective Skin Treatments guided by Global Aesthetic Experts",
+  title: "Trusted Skin Care Clinic in Gurgaon | Qilumé Aesthetics",
+  description: "Visit Qilumé Aesthetics, a skin care clinic in Gurgaon known for Laser Treatment, Botox Treatment, hair loss treatment and more. Book your session today.",
 };
 
 // Root layout component
